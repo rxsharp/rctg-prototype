@@ -1,3 +1,22 @@
+#tweet-div {
+  margin-top:10px;
+}
+#tweet-div a {
+  text-decoration: none;
+}
+.twitter-share-button {
+  text-decoration:none;
+  color: #4099FF;
+  border: 5px solid #4099FF;
+  padding: 3px 22px;
+  display:inline-block;
+}
+#tweet-div a:hover {
+  text-decoration:none;
+  color: white;
+  background:#4099FF;
+  border: 5px solid white;
+}
 .final-code-tip-section span{
   background: teal;
   color:white;

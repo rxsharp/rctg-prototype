@@ -8,11 +8,15 @@ var arrayTips = [
   
 ];
 
-//Randon Tip Function
+//Random number from the length of the array AND display of coding tip
 function randomTip() {
 var result = Math.floor((Math.random()*arrayTips.length) );
-document.getElementById("random-tip").innerHTML = arrayTips[result].tip;
+var tweetText = document.getElementById("random-tip").innerHTML = arrayTips[result].tip;
 
 var rTipHighlight = document.querySelector("#random-tip");
 rTipHighlight.style.display = "inline";
+//Adding Twitter
+document.getElementById("tweet-div").innerHTML='<a  href="https://twitter.com/intent/tweet?text=' + tweetText.replace(/\s+/g, "%20") + '" class="twitter-share-button" id="tweetTip" data-size="large">Tweet</a>';
+
 }
+
