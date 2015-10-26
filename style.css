@@ -1,0 +1,20 @@
+.final-code-tip-section span{
+  background: teal;
+  color:white;
+  padding: 10px;
+  display:none;
+}
+.final-code-tip-section {
+  border: 2px solid green;
+  padding: 10px;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  line-height:38px;
+}
+.num-btn {
+  background: yellow;
+}
+
+/* General */
+body {margin: 20px;}
+.title {text-align: right;}
